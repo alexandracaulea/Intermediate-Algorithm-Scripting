@@ -4,7 +4,7 @@ test("sumAll function is defined.", () => {
   expect(sumAll).toBeDefined();
 });
 
-test("sumAll function should accept an array as argument", () => {
+test("sumAll function should accept an array as argument.", () => {
   const arr = [1, 2];
   expect(Array.isArray(arr)).toBe(true);
   expect(sumAll(arr)).toEqual(3);
