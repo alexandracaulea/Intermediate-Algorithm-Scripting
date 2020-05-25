@@ -33,7 +33,7 @@ sumAll([4, 7]); // should return 22.
 sumAll([7, 4]); // should return 22.
 ```
 
-### **Solution**
+#### **Solution**
 
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/01.%20Sum%20All%20Numbers%20in%20a%20Range/index.js)
 
@@ -50,13 +50,11 @@ Examples:
 ```js
 diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]); // should return [4].
 diffArray([1, "breakfast", 3, "cat"], [7, "dog"]); // should return [1, "breakfast", 3, "cat", 7, "dog"].
-diffArray([1, 2, 3], [1, 2, 3]); // should return an empty array
+diffArray([1, 2, 3], [1, 2, 3]); // should return an empty array.
 ```
 
-### **Solution**
+#### **Solution**
 
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/02.%20Diff%20Two%20Arrays/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/02.%20Diff%20Two%20Arrays/test.js)
-
-Diff Two Arrays
