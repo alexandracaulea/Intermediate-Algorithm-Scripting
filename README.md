@@ -15,10 +15,15 @@ npm test
 
 ## Below you will find each challenge with a bit of description
 
-1.  [Sum All Numbers in a Range](#1.-sum-all-numbers-in-a-range)
-2.  [Diff Two Arrays](#2.-diff-two-arrays)
-3.  [Seek and Destroy](#3.-seek-and-destroy)
-4.  [Wherefore art thou](#4·-wherefore-art-thou)
+[1. Sum All Numbers in a Range](#1-sum-all-numbers-in-a-range)
+
+[2. Diff Two Arrays](#2-diff-two-arrays)
+
+[3. Seek and Destroy](#3-seek-and-destroy)
+
+[4. Wherefore art thou](#4-wherefore-art-thou)
+
+[5. Spinal Tap Case](#5-spinal-tap-case)
 
 ### 1. Sum All Numbers in a Range
 
@@ -59,7 +64,7 @@ diffArray([1, "breakfast", 3, "cat"], [7, "dog"]); // should return [1, "breakfa
 diffArray([1, 2, 3], [1, 2, 3]); // should return an empty array.
 ```
 
-#### **Solution**
+#### Solution
 
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/02.%20Diff%20Two%20Arrays/index.js)
 
@@ -81,7 +86,7 @@ destroyer(["flower", "sun", 10], "sun", 10); // should return ["flower"].
 destroyer([35, 12, 2, 7, 15], 12, 2, 15, 7) should return [35].
 ```
 
-#### **Solution**
+#### Solution
 
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/03.%20Seek%20and%20Destroy/index.js)
 
@@ -104,10 +109,10 @@ whatIsInAName(
   ],
   { last: "Rowe" }
 ); // should return [{ first: "Noemie", last: "Rowe" }].
-whatIsInAName([{ a: 1, b: 2, c: 3 }], { a: 1, b: 5, c: 3 }); // should return []
+whatIsInAName([{ a: 1, b: 2, c: 3 }], { a: 1, b: 5, c: 3 }); // should return [].
 ```
 
-#### **Solution**
+#### Solution
 
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/04.%20Wherefore%20art%20thou/index.js)
 
