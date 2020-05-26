@@ -18,6 +18,7 @@ npm test
 1.  [Sum All Numbers in a Range](#1.-sum-all-numbers-in-a-range)
 2.  [Diff Two Arrays](#2.-diff-two-arrays)
 3.  [Seek and Destroy](#3.-seek-and-destroy)
+4.  [Wherefore art thou](#4·-wherefore-art-thou)
 
 ### 1. Sum All Numbers in a Range
 
@@ -85,3 +86,29 @@ destroyer([35, 12, 2, 7, 15], 12, 2, 15, 7) should return [35].
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/03.%20Seek%20and%20Destroy/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/03.%20Seek%20and%20Destroy/test.js)
+
+### 4. Wherefore art thou
+
+#### Requirements
+
+Make a function that looks through an array of objects (first argument) and returns an array of all objects that have matching name and value pairs (second argument). Each name and value pair of the source object has to be present in the object from the collection if it is to be included in the returned array.
+
+Examples:
+
+```js
+whatIsInAName(
+  [
+    { first: "Ashlynn", last: "Little" },
+    { first: "Ona", last: null },
+    { first: "Noemie", last: "Rowe" },
+  ],
+  { last: "Rowe" }
+); // should return [{ first: "Noemie", last: "Rowe" }].
+whatIsInAName([{ a: 1, b: 2, c: 3 }], { a: 1, b: 5, c: 3 }); // should return []
+```
+
+#### **Solution**
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/04.%20Wherefore%20art%20thou/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/04.%20Wherefore%20art%20thou/test.js)
