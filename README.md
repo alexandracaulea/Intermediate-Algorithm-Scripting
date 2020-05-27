@@ -117,3 +117,26 @@ whatIsInAName([{ a: 1, b: 2, c: 3 }], { a: 1, b: 5, c: 3 }); // should return []
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/04.%20Wherefore%20art%20thou/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/04.%20Wherefore%20art%20thou/test.js)
+
+### 5. Spinal Tap Case
+
+#### Requirements
+
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
+
+Examples:
+
+```js
+spinalCase("Spinal Tap Case"); // should return "spinal-tap-case".
+spinalCase("spinalTapCase"); // should return "spinal-tap-case".
+spinalCase("Spinal_Tap_Case"); // should return "spinal-tap-case".
+
+spinalCase("This is Spinal Tap-Case"); // should return "this-is-spinal-tap-case".
+spinalCase("ThisIs-Spinal tap-Case"); // should return "this-is-spinal-tap-case".
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/05.%20Spinal%20Tap%20Case/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/05.%20Spinal%20Tap%20Case/test.js)
