@@ -17,7 +17,6 @@ test("spinalCase('ThisIs') returns a string.", () => {
   const result = spinalCase("ThisIs");
   expect(typeof result).toBe("string");
 });
-// should return a string
 
 test("spinalCase('Spinal Tap Case') returns 'spinal-tap-case'.", () => {
   expect(spinalCase("Spinal Tap Case")).toBe("spinal-tap-case");
