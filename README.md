@@ -25,6 +25,8 @@ npm test
 
 [5. Spinal Tap Case](#5-spinal-tap-case)
 
+[6. Pig Latin](#6-pig-latin)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -122,7 +124,7 @@ whatIsInAName([{ a: 1, b: 2, c: 3 }], { a: 1, b: 5, c: 3 }); // should return []
 
 #### Requirements
 
-Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
+Convert a string to spinal case. Spinal case is `all-lowercase-words-joined-by-dashes`.
 
 Examples:
 
@@ -130,7 +132,6 @@ Examples:
 spinalCase("Spinal Tap Case"); // should return "spinal-tap-case".
 spinalCase("spinalTapCase"); // should return "spinal-tap-case".
 spinalCase("Spinal_Tap_Case"); // should return "spinal-tap-case".
-
 spinalCase("This is Spinal Tap-Case"); // should return "this-is-spinal-tap-case".
 spinalCase("ThisIs-Spinal tap-Case"); // should return "this-is-spinal-tap-case".
 ```
@@ -140,3 +141,32 @@ spinalCase("ThisIs-Spinal tap-Case"); // should return "this-is-spinal-tap-case"
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/05.%20Spinal%20Tap%20Case/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/05.%20Spinal%20Tap%20Case/test.js)
+
+### 6. Pig Latin
+
+#### Requirements
+
+Pig Latin is a way of altering English Words. The rules are as follows:
+
+- If a word begins with a consonant, take the first consonant or consonant cluster, move it to the end of the word, and add "ay" to it.
+
+- If a word begins with a vowel, just add "way" at the end.
+
+Translate the provided string to Pig Latin. Input strings are guaranteed to be English words in all lowercase.
+
+Examples:
+
+```js
+translatePigLatin("food"); // should return "oodfay".
+translatePigLatin("fun"); // should return "unfay".
+translatePigLatin("A"); // should return "away".
+translatePigLatin("rhythm"); // should retutn "rhythmay".
+translatePigLatin("schwartz"); // should return "artzschway".
+translatePigLatin("The"); // should return "ethay".
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/06.%20Pig%20Latin/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/06.%20Pig%20Latin/test.js)
