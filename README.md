@@ -27,6 +27,8 @@ npm test
 
 [6. Pig Latin](#6-pig-latin)
 
+[7. Search and Replace](#7-search-and-replace)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -170,3 +172,33 @@ translatePigLatin("The"); // should return "ethay".
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/06.%20Pig%20Latin/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/06.%20Pig%20Latin/test.js)
+
+### 7. Search and Replace
+
+#### Requirements
+
+Perform a search and replace on the sentence using the arguments provided, and return the new sentence.
+
+First argument is the sentence to perform the search and replace on.
+
+Second argument is the word that you will be replacing (before).
+
+Third argument is what you will be replacing the second argument with (after).
+
+_Note_:
+Preserve the case of the first character in the original word when you are replacing it. For example if you mean to replace the word "Book" with the word "dog", it should be replaced as "Dog".
+
+Examples:
+
+```js
+myReplace("Let's listen a song", "listen", "sing"); // should return "Let's sing a song".
+myReplace("She is Running in the park", "Running", "walking"); // should return "She is Walking in the park".
+myReplace("My favourite color is purple", "color", "colour"); // should return "My favourite colour is purple".
+myReplace("His name is Bob", "Bob", "bruce"); // should return "His name is Bruce".
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/07.%20Search%20and%20Replace/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/07.%20Search%20and%20Replace/test.js)
