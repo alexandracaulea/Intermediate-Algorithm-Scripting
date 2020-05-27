@@ -31,6 +31,8 @@ npm test
 
 [8. DNA Pairing](#8-dNA-pairing)
 
+[9. Missing letters](#9-missing-letters)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -215,7 +217,7 @@ Base pairs are a pair of AT and CG. Match the missing element to the provided ch
 
 Return the provided character as the first element in each array.
 
-For example, for the input GCG, return [["G", "C"], ["C","G"],["G", "C"]]
+For example, for the input GCG, return [["G", "C"], ["C","G"],["G", "C"]].
 
 The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.
 
@@ -232,3 +234,25 @@ pairElement("CTCTA"); // should return [["C","G"],["T","A"],["C","G"],["T","A"],
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/08.%20DNA%20Pairing/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/08.%20DNA%20Pairing/test.js)
+
+### 9. Missing letters
+
+#### Requirements
+
+Find the missing letter in the passed letter range and return it.
+
+If all letters are present in the range, return undefined.
+
+Examples:
+
+```js
+fearNotLetter("abce"); //  should return "d".
+fearNotLetter("pqrstvw"); // should return "u".
+fearNotLetter("abcdefghijklmnopqrstuvwxyz"); // should return undefined.
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/09.%20Missing%20letters/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/09.%20Missing%20letters/test.js)
