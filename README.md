@@ -29,6 +29,8 @@ npm test
 
 [7. Search and Replace](#7-search-and-replace)
 
+[8. DNA Pairing](#8-dNA-pairing)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -202,3 +204,31 @@ myReplace("His name is Bob", "Bob", "bruce"); // should return "His name is Bruc
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/07.%20Search%20and%20Replace/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/07.%20Search%20and%20Replace/test.js)
+
+### 8. DNA Pairing
+
+#### Requirements
+
+The DNA strand is missing the pairing element. Take each character, get its pair, and return the results as a 2d array.
+
+Base pairs are a pair of AT and CG. Match the missing element to the provided character.
+
+Return the provided character as the first element in each array.
+
+For example, for the input GCG, return [["G", "C"], ["C","G"],["G", "C"]]
+
+The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.
+
+Examples:
+
+```js
+pairElement("ATCGA"); // should return [["A","T"],["T","A"],["C","G"],["G","C"],["A","T"]].
+pairElement("TTGAG"); // should return [["T","A"],["T","A"],["G","C"],["A","T"],["G","C"]].
+pairElement("CTCTA"); // should return [["C","G"],["T","A"],["C","G"],["T","A"],["A","T"]].
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/08.%20DNA%20Pairing/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/08.%20DNA%20Pairing/test.js)
