@@ -33,7 +33,9 @@ npm test
 
 [9. Missing letters](#9-missing-letters)
 
-[10. Sorted Union](#10-sorted-Union)
+[10. Sorted Union](#10-sorted-union)
+
+[11. Convert HTML Entities](#11-convert-HTML-entities)
 
 ### 1. Sum All Numbers in a Range
 
@@ -280,3 +282,21 @@ uniteUnique([1, 2, 3], [2, 3, 1], [1, 7], [4, 2, 1]); // should return [1, 2, 3,
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/10.%20Sorted%20Union/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/10.%20Sorted%20Union/test.js)
+
+### 11. Convert HTML Entities
+
+Convert the characters `&`, `<`, `>`, `"` (double quote), and `'` (apostrophe), in a string to their corresponding HTML entities.
+
+```js
+convertHTML("abcd"); // should return "abcd".
+convertHTML("Terms & Conditions"); // should return "Terms &amp; Conditions".
+convertHTML("1 < 2 ?"); // should return "1 &lt; 2".
+convertHTML("7 > 0"); // should return "7 &gt; 0".
+convertHTML("<>"); // should return "&lt;&gt;".
+convertHTML("one more day 'till the meetup. returns"); // should return "one more day & apos; till the meetup".
+convertHTML(" QUOTES "); // should  return '&quot; QUOTES &quot;'.
+```
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/11.%20Convert%20HTML%20Entities/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/11.%20Convert%20HTML%20Entities/test.js)
