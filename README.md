@@ -39,6 +39,8 @@ npm test
 
 [12. Sum All Odd Fibonacci Numbers](#12-sum-all-odd-fibonacci-numbers)
 
+[13. Sum All Primes](#13-sum-all-primes)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -293,6 +295,8 @@ uniteUnique([1, 2, 3], [2, 3, 1], [1, 7], [4, 2, 1]); // should return [1, 2, 3,
 
 Convert the characters `&`, `<`, `>`, `"` (double quote), and `'` (apostrophe), in a string to their corresponding HTML entities.
 
+Examples:
+
 ```js
 convertHTML("abcd"); // should return "abcd".
 convertHTML("Terms & Conditions"); // should return "Terms &amp; Conditions".
@@ -319,6 +323,8 @@ The first two numbers in the Fibonacci sequence are 1 and 1. Every additional nu
 
 For example, `sumFibs(10)` should return `10` because all odd Fibonacci numbers less than or equal to `10` are 1, 1, 3, and 5.
 
+Examples:
+
 ```js
 sumFibs(0); // returns 0.
 sumFibs(-5); // returns 0.
@@ -334,3 +340,27 @@ sumFibs(4000000); // returns 4613732.
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/12.%20Sum%20All%20Odd%20Fibonacci%20Numbers/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/12.%20Sum%20All%20Odd%20Fibonacci%20Numbers/test.js)
+
+### 13. Sum All Primes
+
+#### Requirements
+
+A prime number is a whole number greater than 1 with exactly two divisors: 1 and itself. For example, 2 is a prime number because it is only divisible by 1 and 2. In contrast, 4 is not prime since it is divisible by 1, 2 and 4.
+
+Rewrite `sumPrimes` so it returns the sum of all prime numbers that are less than or equal to num.
+
+Examples:
+
+```js
+sumPrimes(5); // returns a number.
+sumPrimes(10); // returns 17.
+sumPrimes(100); // returns 1060.
+sumPrimes(977); // returns 73156.
+sumPrimes(1000); // returns 76127.
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/13.%20Sum%20All%20Primes/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/13.%20Sum%20All%20Primes/test.js)
