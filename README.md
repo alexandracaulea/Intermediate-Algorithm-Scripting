@@ -37,6 +37,8 @@ npm test
 
 [11. Convert HTML Entities](#11-convert-HTML-entities)
 
+[12. Sum All Odd Fibonacci Numbers](#12-sum-all-odd-fibonacci-numbers)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -263,6 +265,8 @@ fearNotLetter("abcdefghijklmnopqrstuvwxyz"); // should return undefined.
 
 ### 10. Sorted Union
 
+#### Requirements
+
 Write a function that takes two or more arrays and returns a new array of unique values in the order of the original provided arrays.
 
 In other words, all values present from all arrays should be included in their original order, but with no duplicates in the final array.
@@ -285,6 +289,8 @@ uniteUnique([1, 2, 3], [2, 3, 1], [1, 7], [4, 2, 1]); // should return [1, 2, 3,
 
 ### 11. Convert HTML Entities
 
+#### Requirements
+
 Convert the characters `&`, `<`, `>`, `"` (double quote), and `'` (apostrophe), in a string to their corresponding HTML entities.
 
 ```js
@@ -297,6 +303,34 @@ convertHTML("one more day 'till the meetup. returns"); // should return "one mor
 convertHTML(" QUOTES "); // should  return '&quot; QUOTES &quot;'.
 ```
 
+#### Solution
+
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/11.%20Convert%20HTML%20Entities/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/11.%20Convert%20HTML%20Entities/test.js)
+
+### 12. Sum All Odd Fibonacci Numbers
+
+#### Requirements
+
+Given a positive integer `num`, return the sum of all odd Fibonacci numbers that are less than or equal to `num`.
+
+The first two numbers in the Fibonacci sequence are 1 and 1. Every additional number in the sequence is the sum of the two previous numbers. The first six numbers of the Fibonacci sequence are 1, 1, 2, 3, 5 and 8.
+
+For example, `sumFibs(10)` should return `10` because all odd Fibonacci numbers less than or equal to `10` are 1, 1, 3, and 5.
+
+```js
+sumFibs(0); // returns 0.
+sumFibs(-5); // returns 0.
+sumFibs(10); // returns 10.
+sumFibs(20); // returns 23.
+sumFibs(100); //returns 188.
+sumFibs(75024); // returns 60696.
+sumFibs(4000000); // returns 4613732.
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/12.%20Sum%20All%20Odd%20Fibonacci%20Numbers/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/12.%20Sum%20All%20Odd%20Fibonacci%20Numbers/test.js)
