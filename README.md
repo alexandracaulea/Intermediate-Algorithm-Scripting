@@ -33,6 +33,8 @@ npm test
 
 [9. Missing letters](#9-missing-letters)
 
+[10. Sorted Union](#10-sorted-Union)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -256,3 +258,25 @@ fearNotLetter("abcdefghijklmnopqrstuvwxyz"); // should return undefined.
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/09.%20Missing%20letters/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/09.%20Missing%20letters/test.js)
+
+### 10. Sorted Union
+
+Write a function that takes two or more arrays and returns a new array of unique values in the order of the original provided arrays.
+
+In other words, all values present from all arrays should be included in their original order, but with no duplicates in the final array.
+
+The unique numbers should be sorted by their original order, but the final array should not be sorted in numerical order.
+
+Examples:
+
+```js
+uniteUnique([1, 2, 3], [3, 5, 2]); // should return [1, 2, 3, 5].
+uniteUnique([1, 5, 7], [3, 2, 4]); // should return [1, 5, 7, 3, 2, 4].
+uniteUnique([1, 2, 3], [2, 3, 1], [1, 7], [4, 2, 1]); // should return [1, 2, 3, 7, 4].
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/10.%20Sorted%20Union/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/10.%20Sorted%20Union/test.js)
