@@ -45,6 +45,8 @@ npm test
 
 [15. Drop it](#15-drop-it)
 
+[16. Steamroller](#16-steamroller)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -421,3 +423,24 @@ dropElements([3, 9, 7], (n) => n > 3); // should return [9, 7].
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/15.%20Drop%20it/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/15.%20Drop%20it/test.js)
+
+### 16. Steamroller
+
+#### Requirements
+
+Flatten a nested array. You must account for varying levels of nesting. Your solution should not use the `Array.prototype.flat()` or `Array.prototype.flatMap()` methods.
+
+Examples:
+
+```js
+steamrollArray(["a", 2]); // should return ["a", 2].
+steamrollArray([[["a"]], [["b"]], [1]]); // should return ['a', 'b', 1].
+steamrollArray([1, [], [2, [[1]]]]); // should  return [1, 2, 1].
+steamrollArray([1, {}, [2, [[{ a: 1 }]]]]); // should return [1, {}, 2, { a: 1 }].
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/16.%20Steamroller/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/16.%20Steamroller/test.js)
