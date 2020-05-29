@@ -41,6 +41,8 @@ npm test
 
 [13. Sum All Primes](#13-sum-all-primes)
 
+[14. Smallest Common Multiple](#14-smallest-common-multiple)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -99,7 +101,7 @@ Examples:
 ```js
 destroyer([1, 2, 1, 2], 1, 2); //  should return [].
 destroyer(["flower", "sun", 10], "sun", 10); // should return ["flower"].
-destroyer([35, 12, 2, 7, 15], 12, 2, 15, 7) should return [35].
+destroyer([35, 12, 2, 7, 15], 12, 2, 15, 7); // should return [35].
 ```
 
 #### Solution
@@ -326,13 +328,13 @@ For example, `sumFibs(10)` should return `10` because all odd Fibonacci numbers 
 Examples:
 
 ```js
-sumFibs(0); // returns 0.
-sumFibs(-5); // returns 0.
-sumFibs(10); // returns 10.
-sumFibs(20); // returns 23.
-sumFibs(100); //returns 188.
-sumFibs(75024); // returns 60696.
-sumFibs(4000000); // returns 4613732.
+sumFibs(0); // should return 0.
+sumFibs(-5); // should return 0.
+sumFibs(10); // should return 10.
+sumFibs(20); // should return 23.
+sumFibs(100); //should return 188.
+sumFibs(75024); // should return 60696.
+sumFibs(4000000); // should return 4613732.
 ```
 
 #### Solution
@@ -352,11 +354,11 @@ Rewrite `sumPrimes` so it returns the sum of all prime numbers that are less tha
 Examples:
 
 ```js
-sumPrimes(5); // returns a number.
-sumPrimes(10); // returns 17.
-sumPrimes(100); // returns 1060.
-sumPrimes(977); // returns 73156.
-sumPrimes(1000); // returns 76127.
+sumPrimes(5); // should return a number.
+sumPrimes(10); // should return 17.
+sumPrimes(100); // should return 1060.
+sumPrimes(977); // should return 73156.
+sumPrimes(1000); // should return 76127.
 ```
 
 #### Solution
@@ -364,3 +366,31 @@ sumPrimes(1000); // returns 76127.
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/13.%20Sum%20All%20Primes/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/13.%20Sum%20All%20Primes/test.js)
+
+### 14. Smallest Common Multiple
+
+#### Requirements
+
+Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
+
+The range will be an array of two numbers that will not necessarily be in numerical order.
+
+For example, if given 1 and 3, find the smallest common multiple of both 1 and 3 that is also evenly divisible by all numbers between 1 and 3. The answer here would be 6.
+
+Examples:
+
+```js
+smallestCommons([1, 5]); // should return a number.
+smallestCommons([1, 5]); // should return 60.
+smallestCommons([5, 1]); // should return 60.
+smallestCommons([2, 10]); // should return 2520.
+smallestCommons([10, 2]); // should return 2520.
+smallestCommons([1, 13]); // should return 360360.
+smallestCommons([13, 1]); // should return 360360.
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/14.%20Smallest%20Common%20Multiple/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/14.%20Smallest%20Common%20Multiple/test.js)
