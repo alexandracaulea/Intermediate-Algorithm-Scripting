@@ -53,6 +53,8 @@ npm test
 
 [19. Arguments Optional](#19-arguments-optional)
 
+[20. Make a Person](#20-make-a-person)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -535,7 +537,7 @@ addTogether(2, 4); // should return a number.
 addTogether(1, 1, 20)); // should return undefined.
 addTogether("http://www.google.com", "Google"); // should return undefined.
 addTogether("http://www.google.com"); // should return undefined.
-addTogether(10, 12); // should return 22;
+addTogether(10, 12); // should return 22.
 addTogether(9, "18"); // should return undefined.
 addTogether("a", { x: 1 }); // should return undefined.
 addTogether(5, -7)); // should return - 2.
@@ -547,3 +549,37 @@ addTogether(3)(4)); // should return 7.
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/19.%20Arguments%20Optional/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/19.%20Arguments%20Optional/test.js)
+
+### 20. Make a Person
+
+Fill in the object constructor with the following methods below:
+
+```js
+getFirstName();
+getLastName();
+getFullName();
+setFirstName(first);
+setLastName(last);
+setFullName(firstAndLast);
+```
+
+Run the tests to see the expected output for each method. The methods that take an argument must accept only one argument and it has to be a string. These methods must be the only available means of interacting with the object.
+
+Examples:
+
+```js
+// const carla = new Person("Carla Stolky");
+// const bob = new Person("Bob Bobby");
+// const sandra = new Person("Sandra Bujgy");
+Object.keys(carla).length; // should return 6.
+carla instanceof Person; // should return true.
+bob.firstName; // should return undefined.
+bob.lastName; // should return undefined.
+sandra.getFullName(); //  should return 'Sandra Bujgy'.
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/20.%20Make%20a%20Person/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/20.%20Make%20a%20Person/test.js)
