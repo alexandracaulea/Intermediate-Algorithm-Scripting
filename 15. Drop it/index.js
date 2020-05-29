@@ -3,8 +3,10 @@ function dropElements(arr, func) {
   if (arguments.length !== 2) return;
 
   // check if "arr" is an array and "arr" is an array of numbers
+  if (!Array.isArray(arr)) return;
+
   const isArrayOfNumbers = arr.every((elem) => typeof elem === "number");
-  if (!Array.isArray(arr) || !isArrayOfNumbers) return;
+  if (!isArrayOfNumbers) return;
 
   // check if "func" passed to dropElements is a function
   if (typeof func !== "function") return;

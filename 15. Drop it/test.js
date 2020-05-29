@@ -35,8 +35,8 @@ describe("the first argument passed to dropElements is an array of numbers and t
         return n > 1;
       })
     ).toStrictEqual([2, 3, 4, 5]);
-    let mockCallbackFunction = jest.fn((n) => n === 5);
 
+    let mockCallbackFunction = jest.fn((n) => n === 5);
     dropElements([1, 2, 3, 4, 5], mockCallbackFunction);
     expect(mockCallbackFunction.mock.calls.length).toBe(5);
 
