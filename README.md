@@ -13,7 +13,7 @@ npm install
 npm test
 ```
 
-## Below you will find each challenge with a bit of description
+## Table of Contents
 
 [1. Sum All Numbers in a Range](#1-sum-all-numbers-in-a-range)
 
@@ -80,6 +80,10 @@ sumAll([7, 4]); // should return 22.
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/01.%20Sum%20All%20Numbers%20in%20a%20Range/test.js)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 ### 2. Diff Two Arrays
 
 #### Requirements
@@ -102,6 +106,10 @@ diffArray([1, 2, 3], [1, 2, 3]); // should return an empty array.
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/02.%20Diff%20Two%20Arrays/test.js)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 ### 3. Seek and Destroy
 
 #### Requirements
@@ -123,6 +131,10 @@ destroyer([35, 12, 2, 7, 15], 12, 2, 15, 7); // should return [35].
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/03.%20Seek%20and%20Destroy/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/03.%20Seek%20and%20Destroy/test.js)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 ### 4. Wherefore art thou
 
@@ -150,6 +162,10 @@ whatIsInAName([{ a: 1, b: 2, c: 3 }], { a: 1, b: 5, c: 3 }); // should return []
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/04.%20Wherefore%20art%20thou/test.js)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 ### 5. Spinal Tap Case
 
 #### Requirements
@@ -171,6 +187,10 @@ spinalCase("ThisIs-Spinal tap-Case"); // should return "this-is-spinal-tap-case"
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/05.%20Spinal%20Tap%20Case/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/05.%20Spinal%20Tap%20Case/test.js)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 ### 6. Pig Latin
 
@@ -200,6 +220,10 @@ translatePigLatin("The"); // should return "ethay".
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/06.%20Pig%20Latin/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/06.%20Pig%20Latin/test.js)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 ### 7. Search and Replace
 
@@ -231,6 +255,10 @@ myReplace("His name is Bob", "Bob", "bruce"); // should return "His name is Bruc
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/07.%20Search%20and%20Replace/test.js)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 ### 8. DNA Pairing
 
 #### Requirements
@@ -259,6 +287,10 @@ pairElement("CTCTA"); // should return [["C","G"],["T","A"],["C","G"],["T","A"],
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/08.%20DNA%20Pairing/test.js)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 ### 9. Missing letters
 
 #### Requirements
@@ -280,6 +312,10 @@ fearNotLetter("abcdefghijklmnopqrstuvwxyz"); // should return undefined.
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/09.%20Missing%20letters/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/09.%20Missing%20letters/test.js)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 ### 10. Sorted Union
 
@@ -305,6 +341,10 @@ uniteUnique([1, 2, 3], [2, 3, 1], [1, 7], [4, 2, 1]); // should return [1, 2, 3,
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/10.%20Sorted%20Union/test.js)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 ### 11. Convert HTML Entities
 
 #### Requirements
@@ -328,6 +368,10 @@ convertHTML(" QUOTES "); // should  return '&quot; QUOTES &quot;'.
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/11.%20Convert%20HTML%20Entities/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/11.%20Convert%20HTML%20Entities/test.js)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 ### 12. Sum All Odd Fibonacci Numbers
 
@@ -357,6 +401,10 @@ sumFibs(4000000); // should return 4613732.
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/12.%20Sum%20All%20Odd%20Fibonacci%20Numbers/test.js)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 ### 13. Sum All Primes
 
 #### Requirements
@@ -380,6 +428,10 @@ sumPrimes(1000); // should return 76127.
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/13.%20Sum%20All%20Primes/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/13.%20Sum%20All%20Primes/test.js)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 ### 14. Smallest Common Multiple
 
@@ -409,6 +461,10 @@ smallestCommons([13, 1]); // should return 360360.
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/14.%20Smallest%20Common%20Multiple/test.js)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 ### 15. Drop it
 
 #### Requirements
@@ -434,6 +490,10 @@ dropElements([3, 9, 7], (n) => n > 3); // should return [9, 7].
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/15.%20Drop%20it/test.js)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 ### 16. Steamroller
 
 #### Requirements
@@ -454,6 +514,10 @@ steamrollArray([1, {}, [2, [[{ a: 1 }]]]]); // should return [1, {}, 2, { a: 1 }
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/16.%20Steamroller/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/16.%20Steamroller/test.js)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 ### 17. Binary Agents
 
@@ -480,6 +544,10 @@ binaryAgent(
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/17.%20Binary%20Agents/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/17.%20Binary%20Agents/test.js)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 ### 18. Everything Be True
 
@@ -514,6 +582,10 @@ truthCheck(
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/18.%20Everything%20Be%20True/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/18.%20Everything%20Be%20True/test.js)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
 
 ### 19. Arguments Optional
 
@@ -552,6 +624,10 @@ addTogether(3)(4)); // should return 7.
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/19.%20Arguments%20Optional/test.js)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 ### 20. Make a Person
 
 #### Requirements
@@ -588,6 +664,10 @@ sandra.getFullName(); //  should return 'Sandra Bujgy'.
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/20.%20Make%20a%20Person/test.js)
 
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
+
 ### 21. Map the Debris
 
 #### Requirements
@@ -618,3 +698,7 @@ orbitalPeriod([
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/21.%20Map%20the%20Debris/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/21.%20Map%20the%20Debris/test.js)
+
+<div align="right">
+  <b><a href="#table-of-contents">↥ Back To Top</a></b>
+</div>
