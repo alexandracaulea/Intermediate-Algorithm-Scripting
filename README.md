@@ -55,6 +55,8 @@ npm test
 
 [20. Make a Person](#20-make-a-person)
 
+[21. Map the Debris](#21-map-the-debris)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -552,6 +554,8 @@ addTogether(3)(4)); // should return 7.
 
 ### 20. Make a Person
 
+#### Requirements
+
 Fill in the object constructor with the following methods below:
 
 ```js
@@ -583,3 +587,34 @@ sandra.getFullName(); //  should return 'Sandra Bujgy'.
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/20.%20Make%20a%20Person/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/20.%20Make%20a%20Person/test.js)
+
+### 21. Map the Debris
+
+#### Requirements
+
+Return a new array that transforms the elements' average altitude into their orbital periods (in seconds).
+
+The array will contain objects in the format `{name: 'name', avgAlt: avgAlt}`.
+
+You can read about orbital periods on [Wikipedia](https://en.wikipedia.org/wiki/Orbital_period).
+
+The values should be rounded to the nearest whole number. The body being orbited is Earth.
+
+The radius of the earth is 6367.4447 kilometers, and the GM value of earth is 398600.4418 km3s-2.
+
+Examples:
+
+```js
+orbitalPeriod([{ name: "sputnik", avgAlt: 35873.5553 }]); // should return [{name: "sputnik", orbitalPeriod: 86400}].
+orbitalPeriod([
+  { name: "iss", avgAlt: 413.6 },
+  { name: "hubble", avgAlt: 556.7 },
+  { name: "moon", avgAlt: 378632.553 },
+]); // should return [{name : "iss", orbitalPeriod: 5557}, {name: "hubble", orbitalPeriod: 5734}, {name: "moon", orbitalPeriod: 2377399}].
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/21.%20Map%20the%20Debris/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/21.%20Map%20the%20Debris/test.js)
