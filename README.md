@@ -49,6 +49,8 @@ npm test
 
 [17. Binary Agents](#17-binary-agents)
 
+[18. Everything Be True](#18-everything-be-true)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -472,3 +474,37 @@ binaryAgent(
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/17.%20Binary%20Agents/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/17.%20Binary%20Agents/test.js)
+
+### 18. Everything Be True
+
+#### Requirements
+
+Check if the predicate (second argument) is _truthy_ on all elements of a collection (first argument).
+
+In other words, you are given an array collection of objects. The predicate `pre` will be an object property and you need to return `true` if its value is `truthy`. Otherwise, return `false`.
+
+In JavaScript, `truthy` values are values that translate to `true` when evaluated in a Boolean context.
+
+Remember, you can access object properties through either dot notation or `[]` notation.
+
+Examples:
+
+```js
+truthCheck([{ name: "Bob" }, { name: NaN }], "name"); // should return false.
+truthCheck([{ username: "debb12" }, { username: undefined }], "username"); // should return false.
+truthCheck([{ pasword: "password" }], "pasword"); // should return true.
+truthCheck(
+  [
+    { name: "Deborah", hasADog: true },
+    { name: "Adriene", hasADog: true },
+    { name: "Joey", hasADog: null },
+  ],
+  "hasADog"
+); // should return false.
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/18.%20Everything%20Be%20True/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/18.%20Everything%20Be%20True/test.js)
