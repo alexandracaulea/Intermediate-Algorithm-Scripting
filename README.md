@@ -1,4 +1,4 @@
-# Writing tests in Jest for the freeCodeCamp's Intermediate Algorithm Scripting Challenges
+# Practice writing tests
 
 I've decided to start learning how to test the JavaScript code, that I write, and the framework I chose is [Jest](https://jestjs.io/en/).
 
