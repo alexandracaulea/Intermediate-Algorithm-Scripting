@@ -51,6 +51,8 @@ npm test
 
 [18. Everything Be True](#18-everything-be-true)
 
+[19. Arguments Optional](#19-arguments-optional)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -508,3 +510,40 @@ truthCheck(
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/18.%20Everything%20Be%20True/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/18.%20Everything%20Be%20True/test.js)
+
+### 19. Arguments Optional
+
+#### Requirements
+
+Create a function that sums two arguments together. If only one argument is provided, then return a function that expects one argument and returns the sum.
+
+For example, `addTogether(2, 3)` should return `5`, and `addTogether(2)` should return a function.
+
+Calling this returned function with a single argument will then return the sum:
+
+```js
+const sumTwoAnd = addTogether(2);
+sumTwoAnd(3); // returns 5.
+```
+
+If either argument isn't a valid number, return undefined.
+
+Examples:
+
+```js
+addTogether(2, 4); // should return a number.
+addTogether(1, 1, 20)); // should return undefined.
+addTogether("http://www.google.com", "Google"); // should return undefined.
+addTogether("http://www.google.com"); // should return undefined.
+addTogether(10, 12); // should return 22;
+addTogether(9, "18"); // should return undefined.
+addTogether("a", { x: 1 }); // should return undefined.
+addTogether(5, -7)); // should return - 2.
+addTogether(3)(4)); // should return 7.
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/19.%20Arguments%20Optional/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/19.%20Arguments%20Optional/test.js)
