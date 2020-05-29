@@ -43,6 +43,8 @@ npm test
 
 [14. Smallest Common Multiple](#14-smallest-common-multiple)
 
+[15. Drop it](#15-drop-it)
+
 ### 1. Sum All Numbers in a Range
 
 #### Requirements
@@ -394,3 +396,28 @@ smallestCommons([13, 1]); // should return 360360.
 [See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/14.%20Smallest%20Common%20Multiple/index.js)
 
 [See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/14.%20Smallest%20Common%20Multiple/test.js)
+
+### 15. Drop it
+
+#### Requirements
+
+Given the array `arr`, iterate through and remove each element starting from the first element (the 0 index) until the function `func` returns `true` when the iterated element is passed through it.
+
+Then return the rest of the array once the condition is satisfied, otherwise, `arr` should be returned as an empty array.
+
+Examples:
+
+```js
+dropElements([1, 2, 3, 4, 5], function (n) {
+  return n > 1;
+}); // should return [2, 3, 4, 5].
+dropElements([5, 7, 5, 7, 5], (n) => n === 7); // should return [7, 5, 7, 5].
+dropElements([3, 4, 5], (n) => n > 5); // should return [].
+dropElements([3, 9, 7], (n) => n > 3); // should return [9, 7].
+```
+
+#### Solution
+
+[See the JavaScript solution that I wrote.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/15.%20Drop%20it/index.js)
+
+[See the test cases that I wrote in Jest.](https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/blob/master/15.%20Drop%20it/test.js)
