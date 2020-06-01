@@ -1,8 +1,10 @@
 {
-  "name": "Intermediate-Algorithm-Scripting",
+  "name": "intermediate-algorithm-scripting",
   "version": "1.0.0",
-  "description": "",
+  "description": "I've took all the functions that I wrote for the freeCodeCamp's Intermediate Algorithm Scripting Challenges and write the tests in Jest",
+  "author": "Alexandra Caulea <alexandra.caulea@gmail.com>",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "jest",
     "testWatch": "jest --watchAll"
@@ -11,8 +13,11 @@
     "type": "git",
     "url": "git+https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "practice testing",
+    "jest",
+    "freeCodeCamp Intermediate Algorithm Scripting Challenges"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alexandracaulea/Intermediate-Algorithm-Scripting/issues"
