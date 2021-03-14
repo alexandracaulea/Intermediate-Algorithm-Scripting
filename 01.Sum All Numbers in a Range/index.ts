@@ -1,6 +1,4 @@
-function sumAll(arr) {
-  if (!Array.isArray(arr)) return;
-
+function sumAll(arr: number[]): number {
   const minVal = Math.min(...arr);
   const maxVal = Math.max(...arr);
   let sum = 0;
