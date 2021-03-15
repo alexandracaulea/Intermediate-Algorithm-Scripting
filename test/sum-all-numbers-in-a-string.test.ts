@@ -1,4 +1,4 @@
-const sumAll = require("./index");
+import sumAll from "../01.sum-all-numbers-in-a-string/sum-all-numbers-in-a-string";
 
 test("sumAll function is defined.", () => {
   expect(sumAll).toBeDefined();
