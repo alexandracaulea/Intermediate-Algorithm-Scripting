@@ -6,7 +6,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --outDir build",
     "test": "jest",
     "testWatch": "jest --watchAll"
   },
