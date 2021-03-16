@@ -1,4 +1,4 @@
-function destroyer(arr) {
+function destroyer(arr){
   if (!Array.isArray(arguments[0])) return;
 
   const args = Array.from(arguments).slice(1);
@@ -7,4 +7,4 @@ function destroyer(arr) {
   });
 }
 
-module.exports = destroyer;
+export default destroyer;

@@ -1,4 +1,4 @@
-const diffArray = require("./index");
+import diffArray from "../02.diff-two-arrays/diff-two-arrays";
 
 test("diffArray function is defined.", () => {
   expect(typeof diffArray).toEqual("function");

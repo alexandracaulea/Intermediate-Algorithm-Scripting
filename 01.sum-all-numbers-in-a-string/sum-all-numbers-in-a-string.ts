@@ -1,4 +1,5 @@
-export default function sumAll(arr: number[]): number {
+function sumAll(arr: number[]) {
+  if (!Array.isArray(arr)) return;
   const minVal = Math.min(...arr);
   const maxVal = Math.max(...arr);
   let sum = 0;
@@ -8,3 +9,5 @@ export default function sumAll(arr: number[]): number {
   }
   return sum;
 }
+
+export default sumAll;

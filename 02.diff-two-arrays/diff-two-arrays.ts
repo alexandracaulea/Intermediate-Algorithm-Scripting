@@ -1,4 +1,4 @@
-function diffArray(arr1, arr2) {
+function diffArray(arr1: any[], arr2: any[]) {
   if (arguments.length !== 2) return;
   if (!Array.isArray(arr1) && !Array.isArray(arr2)) {
     return;
@@ -9,4 +9,4 @@ function diffArray(arr1, arr2) {
   }
 }
 
-module.exports = diffArray;
+export default diffArray;

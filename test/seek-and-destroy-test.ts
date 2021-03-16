@@ -1,4 +1,4 @@
-const destroyer = require("./index");
+import destroyer from "../03.seek-and-destroy/seek-and-destroy";
 
 test("destroyer function is defined.", () => {
   expect(typeof destroyer).toEqual("function");
